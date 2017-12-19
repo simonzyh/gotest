@@ -25,6 +25,7 @@ func main() {
 	fmt.Printf("Book 1 author : %s\n", Book1.author)
 	fmt.Printf("Book 1 subject : %s\n", Book1.subject)
 	fmt.Printf("Book 1 book_id : %d\n", Book1.book_id)
+	fmt.Println(Book1)
 
 
 }
