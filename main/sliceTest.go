@@ -29,14 +29,14 @@ func main() {
 	number3 := numbers[2:5]
 	printSlice(number3)
 
-	s1 :=make([]int,4,5)
+	s1 := make([]int, 4, 5)
 
 	printSlice(s1);
-	s1[0]=1
-	s1[1]=1
-	s1[2]=1
+	s1[0] = 1
+	s1[1] = 1
+	s1[2] = 1
 
-  	printSlice(s1);
+	printSlice(s1);
 
 
 }
