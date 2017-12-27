@@ -8,7 +8,10 @@ type Phone interface {
 	call()
 	call1()
 }
-
+type Phone1 interface {
+	call()
+	call1()
+}
 type NokiaPhone struct {
 }
 
@@ -29,7 +32,7 @@ func (iPhone IPhone) call1() {
 	fmt.Println("I am iPhone, I can call1 you!")
 }
 func main() {
-	var phone Phone
+	var phone Phone1
 
 	phone = new(NokiaPhone)
 	phone.call()
