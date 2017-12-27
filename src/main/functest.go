@@ -1,5 +1,4 @@
 package main
-
 import "fmt"
 
 /* 函数返回两个数的最大值 */
@@ -20,7 +19,7 @@ func max(num1, num2 *int) int {
 	return result
 }
 
-func main() {
+func main12() {
 	/* 定义局部变量 */
 	var a int = 300
 	var b int = 400
