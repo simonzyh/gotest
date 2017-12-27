@@ -18,5 +18,5 @@ func main() {
 
 	/* 调用函数并返回最大值 */
 	ret = max(&a, &b)
-        fmt.Println(ret)
+	fmt.Println(ret)
 }

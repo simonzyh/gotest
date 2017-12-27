@@ -1,4 +1,5 @@
 package main
+
 import "fmt"
 
 /* 函数返回两个数的最大值 */
